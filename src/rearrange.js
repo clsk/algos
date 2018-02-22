@@ -1,3 +1,7 @@
+/**
+ * 
+ * @param {Object} x 
+ */
 function rearrenge(x) {
   let invertedObject = {};
   let keys = [];

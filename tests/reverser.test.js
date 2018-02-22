@@ -19,7 +19,7 @@ describe('reverse all words in a string, without reversing the whole string', ()
     expect(reverser('someword wording another')).toEqual('drowemos gnidrow rehtona');
   });
 
-  test('3 word string', () => {
+  test('4 word string', () => {
     expect(reverser('someword wording another justfun')).toEqual('drowemos gnidrow rehtona nuftsuj');
   });
 });

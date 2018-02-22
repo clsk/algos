@@ -19,7 +19,7 @@ function reverser(input) {
   }
 
   let words = [];
-  // basically implementing input.split(' ')
+  // basically implementing input.split(' ') manually
   let begin = 0, end = 0;
   for (;end < input.length; ++end) { // O(wordCount)
     if (input[end] === ' ') {
