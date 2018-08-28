@@ -21,6 +21,7 @@
     ],
     "setupFiles": [
       "<rootDir>/jestsetup.js"
-    ]
+    ],
+    "testEnvironment": "node"
   }
 }
